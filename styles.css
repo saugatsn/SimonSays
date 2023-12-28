@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.game-title {
+  margin: 1.5rem 0.3rem;
+
+}
+.level-counter {
+  margin: 1rem;
+}
+.state {
+  margin: 2rem 0.3rem;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+}
+.box0 {
+  background-color: rgba(255, 0, 0, 1);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  /* border-bottom-right-radius: 50%; */
+}
+.box1 {
+  background-color: rgba(99, 238, 19, 1);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  /* border-bottom-left-radius: 50%; */
+  border-bottom-right-radius: 50%;
+}
+.box2 {
+  background-color: rgba(47, 0, 255, 1);
+  border-top-left-radius: 50%;
+  /* border-top-right-radius: 50%; */
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.box3 {
+  background-color: rgba(251, 255, 0, 1);
+  /* border-top-left-radius: 50%; */
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.box-container {
+  display: grid;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 200px 200px;
+  gap: 0.3rem;
+  justify-content: center;
+  align-content: center;
+}
+.gameflash {
+  background-color: white;
+}
+.userflash {
+    background-color: black;
+  }
+  
